@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-row px-24 *:flex-1 h-full font-metropolis text-white">
-      <div className="flex flex-col h-full justify-center pb-8 ">
+    <main className="flex flex-row px-24 *:flex-1 h-screen font-metropolis text-white">
+      <div className="flex flex-col h-full justify-center ">
         <div className="flex flex-col justify-center gap-2">
           <div className="flex flex-col h-full">
             <span className="text-xl">Telling stories of Herons</span>
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className="grid place-items-center">
-        <img src="images/umak-confession-cover.png" alt="" className="mb-8"/>
+        <img src="images/umak-confession-cover.png" alt="" className="mt-4"/>
       </div>
     </main>
   );

@@ -2,7 +2,7 @@ import { Component, FunctionComponent } from "react";
 
 const Navbar: FunctionComponent = () => {
   return (
-    <nav className="flex flex-row justify-between px-16 py-5">
+    <nav className="absolute w-full max-w-screen-2xl flex flex-row justify-between px-16 py-5">
       <a href="/" className="flex flex-row items-center gap-6">
         <img
           src={"images/logos/UCIC.png"}
